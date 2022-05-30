@@ -6,7 +6,7 @@ public class enemy : MonoBehaviour
 
     private Transform target;
     private int waypointIndex = 0;
-
+// TEST COMMENTAIRE GITHUB
     void Start() {
         target = Waypoints.points[0]; //On selectionne la cible de l'ennemi : le premier waypoint
     }
